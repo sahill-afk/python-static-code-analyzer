@@ -1,0 +1,5 @@
+streamlit==1.67.0
+reportlab==4.5.1
+pyflakes==3.4.0
+bandit==1.9.4
+radon==6.0.1
