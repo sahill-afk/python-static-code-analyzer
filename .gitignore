@@ -1,0 +1,34 @@
+# Python bytecode and test/tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local environment variables/secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+secrets.toml
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Packaging and build output
+build/
+dist/
+*.egg-info/
+
+# Local logs and OS metadata
+*.log
+python-analysis-report.csv
+python-analysis-report.pdf
+tests/*.zip
+.DS_Store
+Thumbs.db
+desktop.ini
